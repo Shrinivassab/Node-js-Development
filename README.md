@@ -1,2 +1,17 @@
 # Node-js-Development
-Created this repository in order to learn -> Node.js Npm Asynchronous programming ES6/ES7 MongoDB Express Socket.IO JWT Authentication Mongoose Application deployment with Heroku Version control with Git GitHub REST API Design Code testing Debugging Mocha Many more tools I can’t wait to see you on the inside!
+Created this repository in order to learn -> 
+1) Node.js 
+2) Npm 
+3) Asynchronous programming 
+4) ES6/ES7 
+5) MongoDB 
+6) Express 
+7) Socket.IO 
+8) JWT Authentication 
+9) Mongoose Application deployment with Heroku 
+10) Version control with Git 
+11) GitHub 
+12) REST API Design 
+13) Code testing 
+14) Debugging 
+15) Mocha 
