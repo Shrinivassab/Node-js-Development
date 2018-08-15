@@ -1,27 +1,20 @@
-console.log('Starting app.js');
-
 const fs = require('fs');
-const os = require('os');
 const _ = require('lodash'); // set of really handy utilities
+
 const notes = require('./notes.js');
 
-// console.log(_.isString(true));
-// console.log(_.isString('Shrinivass'));
+var command = process.argv[2];
+console.log('Command: ', command);
+console.log(process.argv);
 
-var filteredArray = _.uniq(['Shrinivass',1,1,2,3,4,"Shrinivass"]);
-console.log(filteredArray);
-
-var user = os.userInfo();
-// console.log(user);
-
-// fs.appendFile('greeting.txt','Hello' + user.username + '!', function (err) {
-//   if (err) {
-//     console.log('Unable to write to file');
-//   }
-// });
-
-// fs.appendFile('greeting.txt',`${user.username}`, function (err) {
-//   if (err) {
-//     console.log('Unable to write to file');
-//   }
-// });
+if (command === 'add') {
+  console.log('Adding new note');
+} else if (command === 'list') {
+  console.log('Listing all notes');
+} else if (command === 'read') {
+  console.log('Reading Note');
+}else if (command === 'remove') {
+  console.log('Removing note');
+}else {
+  console.log('Command not regonised');
+}
