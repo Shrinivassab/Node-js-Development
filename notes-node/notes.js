@@ -13,8 +13,8 @@ var getNote = (title) => {
 };
 
 var removeNote = (title) => {
-  console.log('Remove note', title);
-}
+  console.log('Removing note', title);
+};
 
 module.exports = {
   addNote,
